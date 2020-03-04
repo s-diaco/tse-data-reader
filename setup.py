@@ -23,7 +23,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'pandas>=0.22.0,<0.26.0',
-        'requests>=2.22.0,<3.23.0',
+        'requests>=2.20.0,<3.23.0',
         'jdatetime>=3.6.2,<4.7.0',
         'beautifulsoup4>=4.8.1,<4.9.0'
     ],
