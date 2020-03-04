@@ -17,14 +17,14 @@ setup(
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.5",
     ],
     packages=find_packages(exclude=("tests",)),
     include_package_data=True,
     install_requires=[
-        'pandas>=0.25.3,<0.26.0',
-        'requests>=2.22.0,<2.23.0',
-        'jdatetime>=3.6.2,<3.7.0',
+        'pandas>=0.22.0,<0.26.0',
+        'requests>=2.22.0,<3.23.0',
+        'jdatetime>=3.6.2,<4.7.0',
         'beautifulsoup4>=4.8.1,<4.9.0'
     ],
     project_urls={
